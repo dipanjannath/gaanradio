@@ -95,7 +95,7 @@ ul.white-list {
 ul.white-list li {
 	font-size: 18px;
 	margin: 10px 0;
-	color: #000000;
+	color: #ffff;
 }
 
 ul.white-list li:before {
@@ -154,7 +154,7 @@ header .typed-cursor {
 
 a {
 	text-decoration: none;
-	color: #00a8ff;
+	color: #000000;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
