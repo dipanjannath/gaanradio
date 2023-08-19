@@ -1,0 +1,55 @@
+.container {
+  background-color: #4b4364;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.check-element {
+  fill-opacity: 0;
+  -webkit-animation-name: draw, fillIn;
+          animation-name: draw, fillIn;
+  -webkit-animation-duration: 2.5s, 0.75s;
+          animation-duration: 2.5s, 0.75s;
+  -webkit-animation-iteration-count: 1, 1;
+          animation-iteration-count: 1, 1;
+  -webkit-animation-fill-mode: forwards, forwards;
+          animation-fill-mode: forwards, forwards;
+  -webkit-animation-delay: 0s, 1.25s;
+          animation-delay: 0s, 1.25s;
+}
+@-webkit-keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes draw {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@-webkit-keyframes fillIn {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}
+@keyframes fillIn {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}
